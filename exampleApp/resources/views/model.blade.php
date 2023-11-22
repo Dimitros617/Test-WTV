@@ -17,15 +17,21 @@
     </head>
     <body class="antialiased">
         
-        Ahoj jak se máte
 
         @php
-            $count = 10;
-        @endphp
+            use App\Models\Books;
+            $books = Books::all();
 
-        @for ($i = 0; $i < $count; $i++)
-            @include('button')
-        @endfor
+            echo $books;
+        @endphp
+        
+
+        @foreach ($books as $book)
+            <br>
+            Book name: {{$book->name}}
+            <br>
+            {{$book->author->name}}
+        @endforeach
 
     </body>
 </html>
