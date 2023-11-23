@@ -9,7 +9,7 @@ class Books extends Model
 {
     use HasFactory;
 
-    public function author()
+    public function autors()
     {
         return $this->belongsTo('App\Models\Autors', 'autor_id', 'id');
     }

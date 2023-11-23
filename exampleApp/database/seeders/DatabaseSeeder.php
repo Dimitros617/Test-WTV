@@ -18,8 +18,8 @@ class DatabaseSeeder extends Seeder
 
 
         DB::table('autors')->insert([
-            'name' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
+            'name' => 'Karel',
+            'email' => 'karelmuj@gmail.com',
         ]);
 
         DB::table('autors')->insert([
