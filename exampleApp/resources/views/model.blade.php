@@ -35,9 +35,3 @@
 
     </body>
 </html>
-
-
-[
-    {"id":1,"name":"bookD5tlYEysMl","autor_id":1,"created_at":null,"updated_at":null},
-    {"id":2,"name":"bookjpXYG6WxWK","autor_id":1,"created_at":null,"updated_at":null}
-]
