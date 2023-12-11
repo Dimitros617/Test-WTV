@@ -23,3 +23,6 @@ php artisan breeze:install
 npm install
 
 -> restart terminal -> npm run dev
+
+
+Debug bar: https://github.com/barryvdh/laravel-debugbar#installation
